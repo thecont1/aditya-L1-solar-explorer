@@ -114,66 +114,11 @@ Then, find and open `sun-explorer.ipynb` in your browser.
 
 You're all set! If you run into any issues, check the troubleshooting section or let us know.
 
-## Usage
+## Files
 
-1. **Data Setup**:
+### **Data Setup**:
    * Place your Aditya-L1 SoLEXS ZIP files in a directory
    * Create a `SoLEXS_dataset.paths` file listing the directories containing your data
-
-2. **Run the Notebook**:
-   * Open `sun-explorer.ipynb` in Jupyter
-   * Run all cells to load data and initialize the interface
-
-3. **Analyze Solar Flares**:
-   * Use the date/time selectors to choose a time range
-   * Adjust the sigma threshold to control flare detection sensitivity
-   * Modify the gap parameter to distinguish between separate flare events
-   * Set the zoom window to control the detail view of detected flares
-
-## Usage Guide
-
-### Getting Started
-
-When you launch the Solar Flare Explorer notebook, it will automatically load the SoLEXS data from the configured paths. You'll see a loading progress bar and a summary of the data similar to this:
-
-![Data Loading](image5-loading.png)
-
-This indicates the notebook has successfully processed the solar data files and created a `SoLEXS_dataset.parquet` datafile ready for analysis.
-
-### Customizing Your Analysis
-
-The interactive control panel allows you to select specific time periods and adjust detection parameters:
-
-![Control Panel](image6-controls.png)
-
-* **Date and Time Selection**: Choose the start and end dates/times to focus on a specific observation period
-* **Sigma**: Controls the sensitivity of flare detection (higher values detect only stronger flares)
-* **Gap**: Sets the minimum time (in seconds) between separate flares
-* **Zoom**: Determines how many minutes to display when viewing a single flare in detail
-* **Update Analysis**: Click this button to refresh the analysis with your new settings
-
-### Exploring Solar Flares
-
-After updating the analysis, you'll see a light curve showing X-ray activity from the Sun during your selected period:
-
-![Solar Flare Light Curve](image7-lightcurve.png)
-
-* The **blue line** shows the X-ray count rate over time
-* The **green line** shows the median count level
-* The **red line** shows the detection threshold (median + sigma × standard deviation)
-* **Pink labels** mark detected flares with their peak times
-
-### Examining Individual Flares
-
-The final plot shows a zoomed-in view of the largest solar flare detected in the previous step. To observe any other flare, adjust the time window so that the flare of your choice is visible in the light curve plot, click <span style="background-color: #00aa00; color: white; padding: 3px 5px 3px 5px;">▶︎Update Analysis</span> and then come back here and click <span style="background-color: #00b0b0; color: white; padding: 3px 5px 3px 5px;">🔄Update</span>:
-
-![Zoomed Flare](image8-zoom.png)
-
-This zoomed view shows the detailed structure of the flare, allowing you to observe the rapid rise in X-ray emission followed by a more gradual decline - the characteristic signature of a solar flare.
-
-To continue your exploration, simply adjust the parameters in the control panel and click "Update Analysis" to discover more solar activity!
-
-## Data Format
 
 The tool expects Aditya-L1 SoLEXS data in ZIP files with the following structure:
 
@@ -190,10 +135,58 @@ The processed data is stored in a Parquet file (`SoLEXS_dataset.parquet`) with t
 * `TIME`: Seconds since midnight
 * `COUNTS`: X-ray counts
 
+### **Run the Notebook**:
+   * Open `sun-explorer.ipynb` in Jupyter
+   * Run all cells to load data and initialize the interface
+
+## Usage Guide
+
+### Getting Started
+
+When you launch the Solar Flare Explorer notebook, it will automatically load the SoLEXS data from the configured paths. You'll see a loading progress bar and a summary of the data similar to this:
+
+<img src="image5-loading.png" alt="Data Loading" width="800">
+
+This indicates the notebook has successfully processed the solar data files and created a `SoLEXS_dataset.parquet` datafile ready for analysis.
+
+### Customizing Your Analysis
+
+The interactive control panel allows you to select specific time periods and adjust detection parameters:
+
+<img src="image6-controls.png" alt="Control Panel" width="800">
+
+* **Date and Time Selection**: Choose the start and end dates/times to focus on a specific observation period
+* **Sigma**: Controls the sensitivity of flare detection (higher values detect only stronger flares)
+* **Gap**: Sets the minimum time (in seconds) between separate flares
+* **Zoom**: Determines how many minutes to display when viewing a single flare in detail
+* **Update Analysis**: Click this button to refresh the analysis with your new settings
+
+### Exploring Solar Flares
+
+After updating the analysis, you'll see a light curve showing X-ray activity from the Sun during your selected period:
+
+<img src="image7-lightcurve.png" alt="Solar Flare Light Curve" width="800">
+
+* The **blue line** shows the X-ray count rate over time
+* The **green line** shows the median count level
+* The **red line** shows the detection threshold (median + sigma × standard deviation)
+* **Pink labels** mark detected flares with their peak times
+
+### Examining Individual Flares
+
+The final plot shows a zoomed-in view of the largest solar flare detected in the previous step. To observe any other flare, adjust the time window so that the flare of your choice is visible in the light curve plot, click <span style="background-color: #00aa00; color: white; padding: 3px 5px 3px 5px;">▶︎Update Analysis</span> and then come back here and click <span style="background-color: #00b0b0; color: white; padding: 3px 5px 3px 5px;">🔄Update</span>:
+
+<img src="image8-zoom.png" alt="Zoomed Flare" width="800">
+
+This zoomed view shows the detailed structure of the flare, allowing you to observe the rapid rise in X-ray emission followed by a more gradual decline - the characteristic signature of a solar flare.
+
+To continue your exploration, simply adjust the parameters in the control panel and click "Update Analysis" to discover more solar activity!
+
 ## Acknowledgements
 
-* Indian Space Research Organisation (ISRO) for the Aditya-L1 mission and data
-* The scientific teams behind the SoLEXS instrument
+🫡 Indian Space Research Organisation (ISRO) for the Aditya-L1 mission
+
+🫡 The scientists and engineers for the SoLEXS instrument and data
 
 ## License
 
