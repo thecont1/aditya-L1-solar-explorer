@@ -7,16 +7,15 @@ Aditya-L1 is a solar observatory positioned 1.5 million kilometers from Earth at
 <div style="padding: 30px; font-size: 16px; line-height: 1.5; width: 600px">
 <p>🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ <br><br> 🌞 A photon emitted on the surface of the Sun takes ≈494 seconds to reach Aditya-L1. Thereafter, the data generated and collected within SoLEXS is transmitted to ISSDC in Bengaluru – **a journey of ≈1.5 million Km in about 5 seconds** – where it is processed and made available to researchers. Are we truly privileged or what?! 😇</p>
 <img src="image3-orbit.jpg" style="padding: 20px; width: 500px; height: 335px;" alt="Aditya-L1 in position within the Sun-Earth system.">
-
-
+</div>
 
 ## Introduction
 
 *Hello, my name is Mahesh Shantaram. I am not an astronomer or even specially qualified in physics beyond a Bachelors degree. But I look 😎 at the sun every day and I wonder, I wonder, I wonder...*
 
-<div style="display: flex; padding-top: 20px; padding-bottom: 20px;">
-  <img src="image1-launch.jpg" style="height: 650px;" alt="A rocket carrying Aditya-L1 is launched from ISRO's Satish Dhawan Space Centre in Sriharikota, Andhra Pradesh.">
-  <img src="image2-trajectory.png" style="padding-top: 80px; height: 650px;" alt="Trajectory to L1">
+<div style="display: flex; padding-top: 20px; padding-bottom: 20px; justify-content: center;">
+  <img src="image1-launch.jpg" style="width: 375px;" alt="A rocket carrying Aditya-L1 is launched from ISRO's Satish Dhawan Space Centre in Sriharikota, Andhra Pradesh.">
+  <img src="image2-trajectory.png" style="width: 375px; padding: 10px;" alt="Trajectory to L1">
 </div>
 
 ### **Aditya-L1 and a faraway place we call L1**
