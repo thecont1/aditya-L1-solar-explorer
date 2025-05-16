@@ -14,8 +14,8 @@ Aditya-L1 is a solar observatory positioned 1.5 million kilometers from Earth at
 *Hello, my name is Mahesh Shantaram. I am not an astronomer or even specially qualified in physics beyond a Bachelors degree. But I look 😎 at the sun every day and I wonder, I wonder, I wonder...*
 
 <div style="display: flex; padding-top: 20px; padding-bottom: 20px; justify-content: center;">
-  <img src="image1-launch.jpg" style="width: 375px;" alt="A rocket carrying Aditya-L1 is launched from ISRO's Satish Dhawan Space Centre in Sriharikota, Andhra Pradesh.">
-  <img src="image2-trajectory.png" style="width: 375px; padding: 10px;" alt="Trajectory to L1">
+  <img src="image1-launch.jpg" style="width: 400px;" alt="A rocket carrying Aditya-L1 is launched from ISRO's Satish Dhawan Space Centre in Sriharikota, Andhra Pradesh.">
+  <img src="image2-trajectory.png" style="width: 400px; padding: 20px;" alt="Trajectory to L1">
 </div>
 
 ### **Aditya-L1 and a faraway place we call L1**
