@@ -5,7 +5,7 @@
 Aditya-L1 is a solar observatory positioned 1.5 million kilometers from Earth at a place called the Lagrangian point L1, providing a continuous view of the Sun. SoLEXS is a spectrometer aboard Aditya-L1 that monitors X-ray emissions from the Sun, every second. This data is valuable for studying solar flares, which are bursts of energy released by the Sun. Now start exploring solar flares by forking the jupyter notebook: [`sun-explorer.ipynb`](sun-explorer.ipynb)
 
 <div style="padding: 30px; font-size: 16px; line-height: 1.5; width: 600px">
-<p>🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ <br><br> 🌞 A photon emitted on the surface of the Sun takes ≈494 seconds to reach Aditya-L1. Thereafter, the data generated and collected within SoLEXS is transmitted to ISSDC in Bengaluru – **a journey of ≈1.5 million Km in about 5 seconds** – where it is processed and made available to researchers. Are we truly privileged or what?! 😇</p>
+<p>🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ <br><br> 🌞 A photon emitted on the surface of the Sun takes ≈494 seconds to reach Aditya-L1. Thereafter, the data generated and collected within SoLEXS is transmitted to ISSDC in Bengaluru – **a journey of ≈1.5 million Km in about 5 seconds** – where it is processed and made available to researchers. We are truly privileged! 😇</p>
 <img src="image3-orbit.jpg" style="padding: 20px; width: 500px; height: 335px;" alt="Aditya-L1 in position within the Sun-Earth system.">
 </div>
 
