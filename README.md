@@ -147,9 +147,9 @@ When you launch the Solar Flare Explorer notebook, it will automatically load th
 
 <img src="image5-loading.png" alt="Data Loading" width="800">
 
-This indicates the notebook has successfully processed the solar data files and created a `SoLEXS_dataset.parquet` datafile ready for analysis. 
+This indicates the notebook has successfully processed the solar data files. The resulting `SoLEXS_dataset.parquet` file will be the source data for analysis going forward.
 
-**As you can see, the dataset contains over 21 million consecutive seconds of observation, from July 1, 2024 to March 31, 2025.** However, due to space limitations on GitHub, the dataset available here is for a subset of this period.
+**As you can see, the dataset contains over 21 million consecutive seconds of observation, from July 1, 2024 to March 31, 2025.** However, due to space limitations on GitHub, this repo only contains a subset of 10 days. To obtain more data, register an account with [ISSDC](https://pradan1.issdc.gov.in/al1/).
 
 ### Customizing Your Analysis
 
