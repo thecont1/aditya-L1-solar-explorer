@@ -6,7 +6,7 @@ Aditya-L1 is a solar observatory positioned 1.5 million kilometers from Earth at
 
 <div style="padding: 30px; font-size: 16px; line-height: 1.5; width: 600px">
 <p>🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ 🛰️ <br><br> 🌞 A photon emitted on the surface of the Sun takes ≈494 seconds to reach Aditya-L1. Thereafter, the data generated and collected within SoLEXS is transmitted to ISSDC in Bengaluru – **a journey of ≈1.5 million Km in about 5 seconds** – where it is processed and made available to researchers. We are truly privileged! 😇</p>
-<img src="image3-orbit.jpg" style="padding: 20px; width: 500px; height: 335px;" alt="Aditya-L1 in position within the Sun-Earth system.">
+<img src="images/image3-orbit.jpg" style="padding: 20px; width: 500px; height: 335px;" alt="Aditya-L1 in position within the Sun-Earth system.">
 </div>
 
 ## Introduction
@@ -16,8 +16,8 @@ Aditya-L1 is a solar observatory positioned 1.5 million kilometers from Earth at
 "The Sun is the soul of all that moves and stands still."
 
 <div style="display: flex; padding-top: 20px; padding-bottom: 20px; justify-content: center;">
-  <img src="image1-launch.jpg" style="width: 400px;" alt="A rocket carrying Aditya-L1 is launched from ISRO's Satish Dhawan Space Centre in Sriharikota, Andhra Pradesh.">
-  <img src="image2-trajectory.png" style="width: 400px; padding: 20px;" alt="Trajectory to L1">
+  <img src="images/image1-launch.jpg" style="width: 400px;" alt="A rocket carrying Aditya-L1 is launched from ISRO's Satish Dhawan Space Centre in Sriharikota, Andhra Pradesh.">
+  <img src="images/image2-trajectory.png" style="width: 400px; padding: 20px;" alt="Trajectory to L1">
 </div>
 
 ### **Aditya-L1 and a faraway place we call L1**
@@ -145,7 +145,7 @@ The processed data is stored in a Parquet file (`SoLEXS_dataset.parquet`) with t
 
 When you launch the Solar Flare Explorer notebook, it will automatically load the SoLEXS data from the configured paths. You'll see a loading progress bar and a summary of the data similar to this:
 
-<img src="image5-loading.png" alt="Data Loading" width="800">
+<img src="images/image5-loading.png" alt="Data Loading" width="800">
 
 This indicates the notebook has successfully processed the solar data files. The resulting `SoLEXS_dataset.parquet` file will be the source data for analysis going forward.
 
@@ -155,7 +155,7 @@ This indicates the notebook has successfully processed the solar data files. The
 
 The interactive control panel allows you to select specific time periods and adjust detection parameters:
 
-<img src="image6-controls.png" alt="Control Panel" width="800">
+<img src="images/image6-controls.png" alt="Control Panel" width="800">
 
 * **Date and Time Selection**: Choose the start and end dates/times to focus on a specific observation period
 * **Sigma**: Controls the sensitivity of flare detection (higher values detect only stronger flares)
@@ -167,7 +167,7 @@ The interactive control panel allows you to select specific time periods and adj
 
 After updating the analysis, you'll see a light curve showing X-ray activity from the Sun during your selected period:
 
-<img src="image7-lightcurve.png" alt="Solar Flare Light Curve" width="800">
+<img src="images/image7-lightcurve.png" alt="Solar Flare Light Curve" width="800">
 
 * The **blue line** shows the X-ray count rate over time
 * The **green line** shows the median count level
@@ -178,7 +178,7 @@ After updating the analysis, you'll see a light curve showing X-ray activity fro
 
 The final plot shows a zoomed-in view of the largest solar flare detected in the previous step. To observe any other flare, adjust the time window so that the flare of your choice is visible in the light curve plot, click <span style="background-color: #00aa00; color: white; padding: 3px 5px 3px 5px;">▶︎Update Analysis</span> and then come back here and click <span style="background-color: #00b0b0; color: white; padding: 3px 5px 3px 5px;">🔄Update</span>:
 
-<img src="image8-zoom.png" alt="Zoomed Flare" width="800">
+<img src="images/image8-zoom.png" alt="Zoomed Flare" width="800">
 
 This zoomed view shows the detailed structure of the flare, allowing you to observe the rapid rise in X-ray emission followed by a more gradual decline - the characteristic signature of a solar flare.
 
